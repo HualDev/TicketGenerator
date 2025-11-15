@@ -16,11 +16,43 @@
 }
 
 body{
-    background-image: url('./assets/images/pattern-lines.svg'), url('./assets/images/pattern-circle.svg'), url('./assets/images/background-mobile.png');
+    background-image: url('./assets/images/pattern-lines.svg'), url('./assets/images/background-mobile.png');
     background-repeat: no-repeat;
-    background-size: cover auto;
-    background-position: center, top;
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+}
+
+.circle-top{
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    width: 30%;
+}
+
+.squiggly-top{
+    position: absolute;
+    width: 30%;
+    right: 0;
+    background-repeat: no-repeat;
+}
+
+.circle-medium{
+    position: absolute;
+    width: 30%;
+    z-index: -10;
+    top: 50%;
+    transform: translateY(50%);
+    right: -15%;
+}
+
+.squiggly-bottom{
+    position: absolute;
+    transform: scale(1);
+    transform: translateY(50%);
+    bottom: 0;
+    z-index: -1;
+    left: 0;
 }
 
 
