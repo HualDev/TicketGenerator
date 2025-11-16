@@ -88,6 +88,80 @@ h2{
     text-align: left;
 }
 
+.upload{
+    border: 0.01rem dashed white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: var(--neutral700);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.upload-container{
+    width: 90%;
+}
+
+.upload-image{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--neutral500);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+.drag{
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+.info-upload{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+.info-upload p{
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 0;
+    width: 85%;
+}
+
+label{
+    display: block;
+    margin-top: 1rem;
+    color: var(--neutral0);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+input{
+    margin: 0.5rem 0 1rem 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid white;
+    background-color: transparent;
+    width: 100%;
+    opacity: 0.5;
+}
+
+button{
+    width: 100%;
+    background-color: var(--orange500);
+    border: none;
+    border-radius: 0.9rem;
+    padding: 1rem;
+    color: var(--neutral900);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
 
 
 
