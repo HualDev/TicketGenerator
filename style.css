@@ -162,6 +162,24 @@ button{
     font-size: 1.2rem;
 }
 
+.ticket-report{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-report p{
+    margin: 1rem;
+}
+
+.ticket{
+    background-image: url('./assets/images/pattern-ticket.svg');
+    width: 50rem;
+    height: 20rem;
+    background-repeat: no-repeat;
+}
+
 
 
 
