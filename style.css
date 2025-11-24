@@ -162,11 +162,20 @@ button{
     font-size: 1.2rem;
 }
 
+.register{
+    display: none;
+}
+
 .ticket-report{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.ticket-report h1{
+    width: 90%;
+    font-size: 1.2rem;
 }
 
 .ticket-report p{
@@ -175,9 +184,31 @@ button{
 
 .ticket{
     background-image: url('./assets/images/pattern-ticket.svg');
-    width: 50rem;
-    height: 20rem;
+    width: 90%;
     background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date h3{
+    color: var(--neutral0);
+    font-size: 2rem;
 }
 
 
